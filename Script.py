@@ -15,7 +15,7 @@ msg['From'] = email_id
 msg['To'] = recipient_list
 
 msg.set_content('line1\
-    line2\ line3\n line4')  # email body here
+    line2\ line3\n line4')  # email body text here
 
 for each_file in os.listdir():
     if each_file == 'Script.py':
