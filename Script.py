@@ -10,7 +10,7 @@ email_pass = 'Enter your password here'  # your password here
 recipient_list = ['recepient1@gmail.com',
                   'recepient2@gmail.com', 'recepient3@gmail.com']  # recepient emails here
 msg = EmailMessage()
-msg['Subject'] = 'Enter your Subject line :)'
+msg['Subject'] = 'Enter your Subject line :)' #Email subject line here
 msg['From'] = email_id
 msg['To'] = recipient_list
 
